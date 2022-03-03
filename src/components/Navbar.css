@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.main-nav{
+    width: 100%;
+    height: 5rem;
+    display: grid;
+    grid-template-columns: 3rem 1fr 2fr 1fr 3rem;
+    
+    }
+
+ .logo{
+     display: flex;
+     grid-column: 2/3;
+     justify-content: start;
+     align-items: center;
+     font-family: 'Arvo';
+     font-style: normal;
+     font-weight: bold;
+ }   
+
+ .up{
+     color:#E25147;
+     
+ }
+ .menuLink{
+grid-column: 3/4;
+ }
+
+ .menu{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 5rem;
+     font-family: 'Manrope', sans-serif;
+     
+    }
+.menu a{
+    color:#333333;
+    font-weight: bold;
+
+}
+    .loginButton{
+        grid-column: 4/5;
+        height: 5rem;
+      margin-left: 5rem;        
+    }
+
+    .loginButton ul{
+        display: flex;
+        height: 5rem;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 5rem;
+        font-family: 'Manrope', sans-serif;
+
+    }
+
+    .loginMenu a{
+        color: #333333;
+        font-weight: bold;
+        padding-right: 10px;
+    }
+
+    .registerMenu{
+        border: 2px solid #FF9B92;
+        border-radius: 7px;
+        padding: 10px 53px;
+    }
+
+    .registerMenu a{
+        color:#E25147;
+        ;
+    }
+
+

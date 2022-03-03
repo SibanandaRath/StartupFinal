@@ -1,0 +1,51 @@
+.heroMain{
+    background-image: url("Group\ 18.png");
+    height: 40rem;
+    width: 85%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  font-family: 'Epilogue', sans-serif;
+  margin-top: 5rem;  
+}
+
+.heroSecond{
+
+    background-color: white;
+    height: 38rem;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-95%, -50%);
+    border-radius: 30px;
+}
+
+.heroTextone{
+    position: absolute;
+    left: 60%;
+    top: 30%;
+    transform: translate(-60%, -50%);
+    font-size:80px;
+    width: 90%;
+    color:#4F4F4F;
+    font-weight:700;
+       
+}
+
+.heroIdeas{
+    color: #378EBA;
+}
+
+.heroTexttwo{
+    position: absolute;
+    left: 60%;
+    top: 68w%;
+    transform: translate(-60%, -50%);
+    width:90%;
+    font-family: 'Manrope', sans-serif;
+}
